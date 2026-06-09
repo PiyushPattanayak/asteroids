@@ -12,7 +12,6 @@ def main():
 
     # game loop
     while True:
-        print("Looping...")
         log_state()
         
         for event in pygame.event.get():
